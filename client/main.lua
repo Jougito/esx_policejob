@@ -1136,7 +1136,7 @@ AddEventHandler('esx_policejob:OutVehicle', function()
 
 	if IsPedSittingInAnyVehicle(playerPed) then
 		local vehicle = GetVehiclePedIsIn(playerPed, false)
-		TaskLeaveVehicle(playerPed, vehicle, 16)
+		TaskLeaveVehicle(playerPed, vehicle, 64)
 	end
 end)
 
